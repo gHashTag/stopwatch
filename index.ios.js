@@ -34,7 +34,7 @@ class stopwatch extends Component {
         onPress={this.handleStartPress.bind(this)}
         style={[styles.button, style]}>
         <Text>
-          {this.state.running ? 'Stop' : 'Starttt'}
+          {this.state.running ? 'Stopp' : 'Start'}
         </Text>
       </TouchableHighlight>
     )
